@@ -10,18 +10,19 @@ body {
   overflow: hidden;
 }
 
-#view {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+/* Question 2.3 Header bar*/
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
 }
 
-#view.sky {
-  background: -webkit-gradient(linear, left top, left bottom, from(#98c8f6), color-stop(0.4, #cbebff), to(#f0f9ff));
-  background: linear-gradient(to bottom, #98c8f6 0%,#cbebff 40%,#f0f9ff 100%);
-}
+/* Style each tab content individually */
+#University {background-color:blue;}
 
-/* Question 2.3 */
+
 .icon-bar {
   width: 100%; /* Full-width */
   background-color: #555; /* Dark-grey background */
@@ -44,6 +45,18 @@ body {
 
 .active {
   background-color: #041daa; /* Add an active/current color */
+}
+
+
+#view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#view.sky {
+  background: -webkit-gradient(linear, left top, left bottom, from(#98c8f6), color-stop(0.4, #cbebff), to(#f0f9ff));
+  background: linear-gradient(to bottom, #98c8f6 0%,#cbebff 40%,#f0f9ff 100%);
 }
 
 
